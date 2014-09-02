@@ -2,6 +2,7 @@ package recsys;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class Recommender {
 
@@ -18,11 +19,20 @@ public class Recommender {
 		HashMap<Integer, Item> items = LoadInput.loadItems(ITEM_FILE);
 		UserBasedRecommender recommender = new UserBasedRecommender(ratings,users);
 		for (Integer user : users.keySet()) {
+			HashMap<Integer,Double> predictions = new HashMap<Integer,Double>();
+			ValueComparator bvc =  new ValueComparator(predictions);
+			TreeMap<Integer, Double> itemsPredications = new TreeMap<Integer, Double>(bvc);
+			Integer count = 0;
 			for (Integer item : items.keySet()) {
-				if (!ratings.get(user).containsKey(item)){
-					recommender.predictRating(users.get(user), items.get(item), 2);
+				if (!ratings.get(user).containsKey(item) && count < 100){
+					predictions.put(item, recommender.predictRating(users.get(user), items.get(item), 100));
+					count++;
 				}
 			}
+			itemsPredications.putAll(predictions);
+			recommender.users.get(user).setItemsPredications(itemsPredications);
+			System.out.println(recommender.users.get(user).getItemsPredications());
+			break;
 		}
 
 	}

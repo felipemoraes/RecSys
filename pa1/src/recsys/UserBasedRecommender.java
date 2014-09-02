@@ -1,8 +1,9 @@
 package recsys;
 
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Set;
+import java.util.Map;
 import java.util.TreeMap;
  
 public class UserBasedRecommender {
@@ -24,7 +25,6 @@ public class UserBasedRecommender {
 		return average /= ratings.size();
 	}
 	public double Similarity(Integer userId1, Integer userId2){
-		double sim = 0;
 		float averageRatingUser1, averageRatingUser2 = 0;
 		double top = 0, bottom = 0, bottom1 = 0, bottom2 = 0;
 		HashMap<Integer,Integer> user1Ratings = this.ratings.get(userId1);
@@ -43,31 +43,61 @@ public class UserBasedRecommender {
 			
 		}
 		bottom = Math.sqrt(bottom1)*Math.sqrt(bottom2);
-		sim = top / bottom;
-		return sim;
+		if (bottom == 0) {
+			return 0.0;
+		} else {
+			return top / bottom;
+		}
 	}
 
-	public Set<Integer> kNearestNeighbors(Integer userId, Integer k){
-		Set<Integer> kSimilars;
-		TreeMap<Integer, Double> simValues = new TreeMap<Integer, Double>();
+
+	public TreeMap<Integer, Double> kNearestNeighbors(Integer userId){
+		HashMap<Integer,Double> simValues = new HashMap<Integer,Double>();
+		ValueComparator bvc =  new ValueComparator(simValues);
+		TreeMap<Integer, Double> kSimilars = new TreeMap<Integer, Double>(bvc);
 		for (Integer user : this.users.keySet()) {
 			simValues.put(user, Similarity(user, userId));
 		}
-		kSimilars = simValues.keySet();
+		
+		kSimilars.putAll(simValues);
 		return kSimilars;
 	}
+	
 	
 	public Double predictRating(User user, Item item, Integer k){
 		float averageRating = averageRatings(ratings.get(user.id));
 		double simalarities = 0, aux = 0, sim;
-		Set<Integer> simalars = user.getkSimilars();
-		Iterator<Integer> iter = simalars.iterator();
+		if (user.getkSimilars().isEmpty()){
+			user.setkSimilars(kNearestNeighbors(user.id));
+		}
+		TreeMap<Integer, Double> simalars = user.getkSimilars();
+		Iterator<Integer> iter = simalars.keySet().iterator();
 		for (int i = 0; i < k; i++) {
-			sim = Similarity(user.id, iter.next());
+			Integer userb = iter.next();
+			sim = Similarity(user.id, userb);
 			simalarities += sim;
-			aux += sim * (ratings.get(user.id).get(item.id) -  averageRatings(ratings.get(user.id)));
-		}		
+			if (ratings.get(userb).containsKey(item.id)){
+				aux += sim * (ratings.get(userb).get(item.id) -  averageRatings(ratings.get(user.id)));
+			}
+		}
 		return averageRating + (aux/simalarities);
 	}
 
+}
+
+class ValueComparator implements Comparator<Integer> {
+
+    Map<Integer, Double> base;
+    public ValueComparator(Map<Integer, Double> base) {
+        this.base = base;
+    }
+
+    // Note: this comparator imposes orderings that are inconsistent with equals.    
+    public int compare(Integer a, Integer b) {
+        if (base.get(a) >= base.get(b)) {
+            return -1;
+        } else {
+            return 1;
+        } // returning 0 would merge keys
+    }
 }

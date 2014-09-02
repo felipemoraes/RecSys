@@ -18,7 +18,6 @@ public class LoadInput {
             userId = Integer.parseInt(var[0]);
             itemId = Integer.parseInt(var[1]);
             rating = Integer.parseInt(var[2]);
-            System.out.println(userId);
           if (ratings.containsKey(userId)){
             	ratings.get(userId).put(itemId, rating);
             } else {
@@ -36,7 +35,7 @@ public class LoadInput {
 		Integer userId;
 		BufferedReader in = new BufferedReader(new FileReader(USER_FILE));
         while((s = in.readLine()) != null){
-            String[] var = s.split("	");
+            String[] var = s.split("\\|");
             userId = Integer.parseInt(var[0]);
             gender = var[1];
             profession = var[2];
@@ -55,7 +54,7 @@ public class LoadInput {
 		Integer itemId;
 		BufferedReader in = new BufferedReader(new FileReader(ITEM_FILE));
         while((s = in.readLine()) != null){
-            String[] var = s.split("|");
+            String[] var = s.split("\\|");
             itemId = Integer.parseInt(var[0]);
             name = var[1];
           if (!items.containsKey(itemId)){
