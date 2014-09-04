@@ -1,19 +1,20 @@
 package recsys;
 
-import java.util.Comparator;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
-import java.util.TreeMap;
  
+//Main class, implement all methods need to calcule prediction to users
 public class UserBasedRecommender {
+	
 	public HashMap<Integer, HashMap<Integer,Integer>> ratings;
 	public HashMap<Integer, User> users;
 	public UserBasedRecommender(HashMap<Integer, HashMap<Integer,Integer>> ratings, HashMap<Integer, User> users){
 		this.ratings = ratings;
 		this.users = users;
 	}
-	
+	//Get avearage of all ratings from a hashmap
 	public float averageRatings(HashMap<Integer,Integer> ratings){
 		float average = 0;
 		Iterator<Integer> iter;
@@ -24,13 +25,17 @@ public class UserBasedRecommender {
 		}
 		return average /= ratings.size();
 	}
+	
+	// Calculate the coeficient of correlation of spearman
 	public double Similarity(Integer userId1, Integer userId2){
 		float averageRatingUser1, averageRatingUser2 = 0;
 		double top = 0, bottom = 0, bottom1 = 0, bottom2 = 0;
 		HashMap<Integer,Integer> user1Ratings = this.ratings.get(userId1);
+		//Get items ratings avearage from users
 		averageRatingUser1 = averageRatings(user1Ratings);
 		HashMap<Integer,Integer> user2Ratings = this.ratings.get(userId2);
 		averageRatingUser2 = averageRatings(user2Ratings);
+		//Process the sum of the spearman formula
 		for (Integer item1 : user1Ratings.keySet()) {
 			for (Integer item2 : user2Ratings.keySet()) {
 					if (item1 == item2){
@@ -49,55 +54,34 @@ public class UserBasedRecommender {
 			return top / bottom;
 		}
 	}
-
-
-	public TreeMap<Integer, Double> kNearestNeighbors(Integer userId){
-		HashMap<Integer,Double> simValues = new HashMap<Integer,Double>();
-		ValueComparator bvc =  new ValueComparator(simValues);
-		TreeMap<Integer, Double> kSimilars = new TreeMap<Integer, Double>(bvc);
-		for (Integer user : this.users.keySet()) {
-			simValues.put(user, Similarity(user, userId));
+	// Calculate users similarities between users and put in a ordered arraylist
+	public ArrayList<KeyValue> kNearestNeighbors(Integer userId){
+		ArrayList<KeyValue> simValues = new ArrayList<KeyValue>();
+		for (Integer user : users.keySet()) {
+			simValues.add(new KeyValue(user, Similarity(userId, user)));
 		}
-		
-		kSimilars.putAll(simValues);
-		return kSimilars;
+		Collections.sort(simValues, new KeyValueComparator());
+		return simValues;
 	}
 	
-	
+	// Method to get predictions from a user and return the prediction from a user
 	public Double predictRating(User user, Item item, Integer k){
 		float averageRating = averageRatings(ratings.get(user.id));
 		double simalarities = 0, aux = 0, sim;
 		if (user.getkSimilars().isEmpty()){
 			user.setkSimilars(kNearestNeighbors(user.id));
 		}
-		TreeMap<Integer, Double> simalars = user.getkSimilars();
-		Iterator<Integer> iter = simalars.keySet().iterator();
+		ArrayList<KeyValue> similars = user.getkSimilars();
+		Iterator<KeyValue> iter = similars.iterator();
 		for (int i = 0; i < k; i++) {
-			Integer userb = iter.next();
-			sim = Similarity(user.id, userb);
+			KeyValue userb = iter.next();
+			sim = userb.value;
 			simalarities += sim;
-			if (ratings.get(userb).containsKey(item.id)){
-				aux += sim * (ratings.get(userb).get(item.id) -  averageRatings(ratings.get(user.id)));
+			if (ratings.get(userb.key).containsKey(item.id)){
+				aux += sim * (ratings.get(userb.key).get(item.id) -  averageRatings(ratings.get(user.id)));
 			}
 		}
 		return averageRating + (aux/simalarities);
 	}
 
-}
-
-class ValueComparator implements Comparator<Integer> {
-
-    Map<Integer, Double> base;
-    public ValueComparator(Map<Integer, Double> base) {
-        this.base = base;
-    }
-
-    // Note: this comparator imposes orderings that are inconsistent with equals.    
-    public int compare(Integer a, Integer b) {
-        if (base.get(a) >= base.get(b)) {
-            return -1;
-        } else {
-            return 1;
-        } // returning 0 would merge keys
-    }
 }

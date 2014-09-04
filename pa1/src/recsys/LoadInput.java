@@ -4,13 +4,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 
-
+// This class is used to load input data from command line
 
 public class LoadInput {
-
+	// Load ratings file
 	public static HashMap<Integer, HashMap<Integer,Integer>> loadRatings(String RATING_FILE) throws IOException{
+		// This is the R matrix from the User-based recommender
 		HashMap<Integer, HashMap<Integer,Integer>> ratings = new HashMap<Integer, HashMap<Integer,Integer>>();
 		String s;
+		//Read file and process each line putting in the R matrix
 		Integer userId, itemId, rating;
 		BufferedReader in = new BufferedReader(new FileReader(RATING_FILE));
         while((s = in.readLine()) != null){
@@ -29,6 +31,7 @@ public class LoadInput {
 		return ratings;
 	}
 	
+	// Method to load users information to a hashmap
 	public static HashMap<Integer, User> loadUsers(String USER_FILE) throws IOException{
 		HashMap<Integer, User> users = new HashMap<Integer, User>();
 		String s, gender, profession;
@@ -47,7 +50,7 @@ public class LoadInput {
         in.close();
 		return users;
 	}
-	
+	// Method to load items information to a hashmap
 	public static HashMap<Integer, Item> loadItems(String ITEM_FILE) throws IOException{
 		HashMap<Integer, Item> items = new HashMap<Integer, Item>();
 		String s, name;

@@ -1,29 +1,35 @@
 package recsys;
 
-import java.util.TreeMap;
+import java.util.ArrayList;
+import recsys.KeyValue;
+
+/*  This class is used to manage similars users and 
+ * maintain a predict list to print out.*/
 
 public class User {
 	public String gender, profession;
 	public Integer id;
-	private TreeMap<Integer, Double> kSimilars;
-	private TreeMap<Integer, Double> itemsPredications;
+	private ArrayList<KeyValue> kSimilars;
+	private ArrayList<KeyValue> itemsPredications;
+	// Constructor
 	User(Integer id, String gender, String profession){
 		this.id = id;
 		this.gender = gender;
 		this.profession = profession;
-		this.kSimilars = new TreeMap<Integer, Double>();
+		this.kSimilars = new ArrayList<KeyValue>();
 	}
-	public void setkSimilars(TreeMap<Integer, Double> similars){
+	// setter and getters of a similars list
+	public void setkSimilars(ArrayList<KeyValue> similars){
 		this.kSimilars = similars;
 	}
 	
-	public TreeMap<Integer, Double> getkSimilars(){
+	public ArrayList<KeyValue> getkSimilars(){
 		return this.kSimilars;
 	}
-	public TreeMap<Integer, Double> getItemsPredications() {
+	public ArrayList<KeyValue> getItemsPredications() {
 		return itemsPredications;
 	}
-	public void setItemsPredications(TreeMap<Integer, Double> itemsPredications) {
+	public void setItemsPredications(ArrayList<KeyValue> itemsPredications) {
 		this.itemsPredications = itemsPredications;
 	}
 	
