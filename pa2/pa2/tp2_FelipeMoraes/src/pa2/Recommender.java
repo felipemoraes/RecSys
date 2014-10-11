@@ -1,0 +1,39 @@
+package pa2;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+public class Recommender {
+
+	public Recommender(String[] args) throws IOException {
+		String USER_FILE = args[0];
+		String ITEM_FILE = args[1];
+		String RATING_FILE = args[2];
+		HashMap<Integer, User> users = LoadInput.loadUsers(USER_FILE);
+		HashMap<Integer, HashMap<Integer,Integer>> ratings = LoadInput.loadRatings(RATING_FILE);
+		HashMap<Integer, Item> items = LoadInput.loadItems(ITEM_FILE);
+		ItemBasedRecommender recommender = new ItemBasedRecommender(ratings, users);
+		BufferedWriter fout = new BufferedWriter(new FileWriter("output"));
+		for (Integer user : users.keySet()) {
+			ArrayList<KeyValue> itemsPredications = new ArrayList<KeyValue>();
+			for (Integer item : items.keySet()) {
+				if (!ratings.get(user).containsKey(item)){
+					Double rating = recommender.predictingItemRating(user, item, 10);
+					itemsPredications.add(new KeyValue(item,rating));
+				}
+			}
+			
+			Collections.sort(itemsPredications, new KeyValueComparator());
+			for (int i = 0; i < 100; i++) {
+				fout.write(user + "\t" + itemsPredications.get(i).key + "\t" + itemsPredications.get(i).value + "\n" );
+			}
+		}
+		fout.close();
+		
+	}
+
+}

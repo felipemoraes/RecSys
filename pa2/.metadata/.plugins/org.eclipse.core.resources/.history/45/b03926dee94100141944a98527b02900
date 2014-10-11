@@ -1,0 +1,18 @@
+package pa2;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Evaluator {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		AveragePrecision avgPrecison = new AveragePrecision();
+		System.out.println(avgPrecison.getMAP(10));
+		
+	}
+	
+
+
+}

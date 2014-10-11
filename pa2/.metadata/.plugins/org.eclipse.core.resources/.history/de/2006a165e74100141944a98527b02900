@@ -1,0 +1,21 @@
+package pa2;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Evaluator {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		HashMap<Integer, HashMap<Integer, Double>> recSet = LoadInput.loadResultSet("output");
+		HashMap<Integer, HashMap<Integer, Double>> realSet = LoadInput.loadResultSet("ua.test");
+		
+	}
+	
+	public Double getAPForUser(Integer userId){
+		
+	}
+
+
+}

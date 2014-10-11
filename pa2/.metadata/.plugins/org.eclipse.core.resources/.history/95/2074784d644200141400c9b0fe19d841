@@ -1,0 +1,21 @@
+package pa2;
+
+import java.io.IOException;
+
+public class tp2 {
+
+	public static void main(String[] args) {
+		if (args.length >= 4){
+			String[] newArgs = {args[1], args[2], args[3]};
+		}
+		if (args[0] == "Indexer"){
+			try {
+				Indexer indexer = new Indexer(newArgs);
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}

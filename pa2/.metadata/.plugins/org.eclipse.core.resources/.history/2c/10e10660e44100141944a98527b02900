@@ -1,0 +1,39 @@
+package pa2;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Evaluator {
+
+	public static void main(String[] args) {
+		HashMap<Integer, HashMap<Integer, Double>> resultSet = LoadInput.loadResultSet();
+
+	}
+	
+	public static Double precision(ArrayList<KeyValue> groundTruth, ArrayList<KeyValue>  predictions ){
+		HashSet<Integer> relevants = new HashSet<Integer>();
+		HashSet<Integer> retrievedRelevants = new HashSet<Integer>();
+		Integer relevantLength, percentageReturnedItemsRelevantLength;
+		Double precision;
+		for (KeyValue item : groundTruth) {
+			if (item.value > 3) {
+				relevants.add(item.key);
+			}
+		}
+		
+		for (KeyValue item : predictions) {
+			if (item.value > 3) {
+				 retrievedRelevants.add(item.key);
+			}
+		}
+		relevantLength = relevants.size();
+		retrievedRelevants.retainAll(relevants);
+		percentageReturnedItemsRelevantLength = retrievedRelevants.size();
+		precision = ((double) relevantLength)/percentageReturnedItemsRelevantLength;
+		return precision;
+		
+	}
+
+
+}

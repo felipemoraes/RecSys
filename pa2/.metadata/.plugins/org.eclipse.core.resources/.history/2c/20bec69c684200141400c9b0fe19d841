@@ -1,0 +1,22 @@
+package pa2;
+
+import java.io.IOException;
+
+public class tp2 {
+
+	public static void main(String[] args) throws IOException {
+		String[] newArgs = {args[1], args[2], args[3]};
+		System.out.println(args[0]);
+		if (args[0].equals("Indexer")){
+			Indexer indexer = new Indexer(newArgs);
+		} else if (args[0].equals("Recommender")){
+			Recommender recommender = new Recommender(newArgs);
+		} else if (args[0].equals("Evaluator")) {
+			Evaluator evaluator = new Evaluator(newArgs);
+		} else {
+			System.err.println("Invalid parameters");
+		}
+
+	}
+
+}
