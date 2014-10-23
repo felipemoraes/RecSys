@@ -1,0 +1,21 @@
+package pa3;
+
+public class Indexer {
+	
+	public Indexer(String itemsFilename) {
+		
+	}
+
+	public void execute(){
+		
+	}
+	
+	// map from a term to a list of movies that contain the term
+	public void invertedIndex(){
+		
+	}
+	//  map from a movie to a list of terms contained by the movie
+	public void directedIndex(){
+		
+	}
+}

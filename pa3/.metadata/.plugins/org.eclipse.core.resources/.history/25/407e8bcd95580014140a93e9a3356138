@@ -1,0 +1,20 @@
+package pa3;
+
+public class Indexer {
+	
+	public Indexer(String itemsFilename) {
+		
+	}
+
+	public void execute(){
+		
+	}
+	
+	public void invertedIndex(){
+		
+	}
+	
+	public void directedIndex(){
+		
+	}
+}

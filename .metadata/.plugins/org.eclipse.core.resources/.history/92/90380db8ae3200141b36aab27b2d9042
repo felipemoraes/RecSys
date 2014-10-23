@@ -1,0 +1,11 @@
+package recsys;
+
+public class Item {
+	public Integer id;
+	public String name;
+	public Double rating;
+	Item(Integer id, String name){
+		this.id = id;
+		this.name = name;
+	}
+}

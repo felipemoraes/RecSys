@@ -1,0 +1,10 @@
+package recsys;
+
+class KeyValue{
+	Integer key;
+	Double value;
+	public KeyValue(Integer key, Double value) {
+		this.key = key;
+		this.value = value;
+	}
+}

@@ -1,0 +1,23 @@
+package recsys;
+
+import java.util.ArrayList;
+import java.util.Set;
+
+public class User {
+	public String gender, profession;
+	public Integer id;
+	private ArrayList<Integer> kSimilars;
+	User(Integer id, String gender, String profession){
+		this.id = id;
+		this.gender = gender;
+		this.profession = profession;
+		this.kSimilars = new ArrayList<Integer>();
+	}
+	public void setkSimilars(Set<Integer> similars){
+		this.kSimilars = similars;
+	}
+	
+	public ArrayList<Integer> getkSimilars(){
+		return this.kSimilars;
+	}
+}

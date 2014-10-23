@@ -1,0 +1,12 @@
+{
+  "/Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa1/src": {
+    "location": "/Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa1/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa1/src\u0027. Skipped."
+  },
+  "/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar",
+    "status": "RESOLVED"
+  }
+}

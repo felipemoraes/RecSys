@@ -1,0 +1,23 @@
+package recsys;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Hashtable;
+
+
+public class LoadInput {
+
+	public Hashtable<String, ArrayList<Integer>> loadRatings(String RATING_FILE) throws IOException{
+		Hashtable<String, ArrayList<Integer>> ratings = new Hashtable<String,ArrayList<Integer>>();
+		BufferedReader read;
+		String s;
+        BufferedReader in = new BufferedReader(new FileReader(RATING_FILE));
+        while((s = in.readLine()) != null){
+     
+            String[] var = s.split(" ");
+            
+        }
+		return ratings;
+	}
+}

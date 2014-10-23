@@ -1,0 +1,381 @@
+2014-10-20 18:28:05,759 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2014-10-20 18:28:06,390 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.jar
+2014-10-20 18:28:06,987 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2014-10-20 18:28:07,306 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.1/maven-compiler-plugin-3.1.pom
+2014-10-20 18:28:09,070 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+2014-10-20 18:28:09,373 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.pom
+2014-10-20 18:28:09,567 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom
+2014-10-20 18:28:09,894 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/18/maven-shared-components-18.pom
+2014-10-20 18:28:10,121 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+2014-10-20 18:28:10,446 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+2014-10-20 18:28:10,604 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+2014-10-20 18:28:10,927 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+2014-10-20 18:28:11,284 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom
+2014-10-20 18:28:11,602 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.pom
+2014-10-20 18:28:11,864 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom
+2014-10-20 18:28:12,175 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.pom
+2014-10-20 18:28:12,342 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+2014-10-20 18:28:12,649 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-jdk14/1.5.6/slf4j-jdk14-1.5.6.pom
+2014-10-20 18:28:13,280 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+2014-10-20 18:28:13,587 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/jcl-over-slf4j/1.5.6/jcl-over-slf4j-1.5.6.pom
+2014-10-20 18:28:13,791 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom
+2014-10-20 18:28:14,101 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.pom
+2014-10-20 18:28:14,364 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.pom
+2014-10-20 18:28:14,781 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.pom
+2014-10-20 18:28:14,950 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.pom
+2014-10-20 18:28:15,262 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.pom
+2014-10-20 18:28:15,507 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+2014-10-20 18:28:15,818 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+2014-10-20 18:28:15,974 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+2014-10-20 18:28:16,286 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/12/spice-parent-12.pom
+2014-10-20 18:28:16,444 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+2014-10-20 18:28:16,767 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/4/forge-parent-4.pom
+2014-10-20 18:28:17,044 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+2014-10-20 18:28:17,351 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+2014-10-20 18:28:17,575 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2014-10-20 18:28:17,885 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.pom
+2014-10-20 18:28:18,040 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2014-10-20 18:28:18,363 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.2/plexus-compiler-2.2.pom
+2014-10-20 18:28:18,519 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2014-10-20 18:28:18,828 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+2014-10-20 18:28:18,985 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+2014-10-20 18:28:19,299 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.3.1/plexus-3.3.1.pom
+2014-10-20 18:28:19,576 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2014-10-20 18:28:19,880 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.pom
+2014-10-20 18:28:20,039 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2014-10-20 18:28:20,354 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.pom
+2014-10-20 18:28:20,512 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2014-10-20 18:28:20,820 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.2/plexus-compilers-2.2.pom
+2014-10-20 18:28:21,270 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+2014-10-20 18:28:22,221 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.1/plexus-utils-1.5.1.jar
+2014-10-20 18:28:22,377 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2014-10-20 18:28:22,993 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/0.1/maven-shared-utils-0.1.jar
+2014-10-20 18:28:23,145 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2014-10-20 18:28:23,466 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+2014-10-20 18:28:23,622 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2014-10-20 18:28:23,932 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2014-10-20 18:28:24,089 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2014-10-20 18:28:24,409 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.2/plexus-compiler-api-2.2.jar
+2014-10-20 18:28:24,579 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2014-10-20 18:28:24,901 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.2/plexus-compiler-manager-2.2.jar
+2014-10-20 18:28:25,051 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2014-10-20 18:28:25,367 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.2/plexus-compiler-javac-2.2.jar
+2014-10-20 18:28:25,530 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+2014-10-20 18:28:26,015 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+2014-10-20 18:28:26,189 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2014-10-20 18:28:26,985 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/log4j/log4j/1.2.12/log4j-1.2.12.jar
+2014-10-20 18:28:27,139 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+2014-10-20 18:28:27,473 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+2014-10-20 18:28:27,635 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+2014-10-20 18:28:28,998 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+2014-10-20 18:28:29,181 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar
+2014-10-20 18:28:29,815 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/3.8.2/junit-3.8.2.jar
+2014-10-20 18:28:30,359 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pa3:pa3:0.0.1-SNAPSHOT @ /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/pom.xml.
+2014-10-20 18:28:31,198 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:28:31,217 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:28:31,221 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:28:31,221 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:28:31,388 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pa3/src
+2014-10-20 18:28:31,392 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /pa3/src/test/java because it overlaps with /pa3/src
+2014-10-20 18:28:31,646 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2014-10-20 18:28:31,896 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pa3:pa3:0.0.1-SNAPSHOT @ /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/pom.xml.
+2014-10-20 18:28:32,007 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /pa3/src
+2014-10-20 18:28:32,007 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /pa3/src/test/java because it overlaps with /pa3/src
+2014-10-20 18:28:32,108 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2014-10-20 18:28:32,252 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:28:32,253 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:28:32,255 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:28:32,270 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:29:54,428 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: pa3:pa3:0.0.1-SNAPSHOT @ /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/pom.xml.
+2014-10-20 18:29:54,871 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2014-10-20 18:29:55,149 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2014-10-20 18:29:55,383 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2014-10-20 18:29:55,852 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2014-10-20 18:29:55,948 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:29:55,948 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:29:55,951 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:29:55,951 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:29:57,133 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:29:57,133 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:29:57,135 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:29:57,135 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:32:30,239 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:32:30,239 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:32:30,241 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:32:30,242 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:34:24,113 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:34:24,114 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:34:24,115 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:34:24,116 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:35:44,080 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:35:44,081 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:35:44,082 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:35:44,083 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:35:47,096 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:35:47,096 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:35:47,099 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:35:47,099 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:35:57,156 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:35:57,156 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:35:57,157 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:35:57,157 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:36:17,431 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:17,431 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:36:17,433 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:17,433 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:36:30,249 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:30,250 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:36:30,251 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:30,252 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:36:34,615 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:34,617 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:36:34,618 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:34,622 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:36:44,024 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:44,024 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:36:44,027 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:36:44,027 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:37:02,299 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:02,300 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:37:02,301 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:02,301 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:37:10,778 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:10,779 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:37:10,780 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:10,781 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:37:24,348 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:24,348 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:37:24,351 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:24,351 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:37:36,627 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:36,627 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:37:36,628 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:36,629 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:37:52,953 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:52,953 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:37:52,954 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:37:52,954 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:38:26,800 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:38:26,800 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:38:26,802 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:38:26,802 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:39:01,483 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:39:01,484 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:39:01,485 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:39:01,485 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:42:34,023 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:42:34,024 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:42:34,025 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:42:34,025 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:43:14,725 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:43:14,726 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:43:14,727 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:43:14,757 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:43:18,722 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:43:18,722 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:43:18,724 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:43:18,724 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:43:44,905 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:43:44,906 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:43:44,907 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:43:44,907 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:44:00,229 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:00,230 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:44:00,231 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:00,232 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:44:08,558 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:08,559 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:44:08,560 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:08,564 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:44:20,273 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:20,274 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:44:20,275 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:20,275 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:44:28,373 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:28,373 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:44:28,374 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:28,375 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:44:41,803 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:41,804 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:44:41,805 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:44:41,805 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:45:01,282 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:01,283 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:45:01,284 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:01,285 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:45:23,826 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:23,827 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:45:23,827 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:23,850 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:45:32,107 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:32,108 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:45:32,109 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:32,109 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:45:38,511 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:38,511 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:45:38,512 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:45:38,512 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:46:19,653 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:46:19,653 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:46:19,654 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:46:19,655 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:46:22,811 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:46:22,811 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:46:22,812 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:46:22,812 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:46:28,883 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:46:28,884 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:46:28,885 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:46:28,885 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:48:07,044 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:07,044 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:48:07,045 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:07,046 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:48:23,832 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:23,832 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:48:23,833 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:23,834 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:48:43,926 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:43,927 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:48:43,928 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:43,929 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:48:48,101 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:48,104 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:48:48,105 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:48:48,105 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:53:59,495 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:53:59,496 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:53:59,497 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:53:59,498 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:55:22,843 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:55:22,843 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:55:22,845 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:55:22,870 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:55:43,758 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:55:43,758 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:55:43,759 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:55:43,760 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:56:00,099 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:56:00,100 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:56:00,101 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:56:00,101 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-20 18:57:05,840 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:57:05,840 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-20 18:57:05,841 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-20 18:57:05,842 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 12:50:13,433 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 12:50:13,467 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 12:50:13,469 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 12:50:13,470 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:07:39,776 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:07:39,778 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:07:39,779 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:07:39,792 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:07:46,958 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:07:46,959 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:07:46,960 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:07:46,961 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:12:42,989 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:12:42,989 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:12:42,991 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:12:42,992 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:13:19,448 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:13:19,448 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:13:19,450 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:13:19,450 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:13:29,732 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:13:29,732 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:13:29,735 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:13:29,736 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:16:24,798 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:16:24,798 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:16:24,799 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:16:24,800 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:16:38,028 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:16:38,028 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:16:38,030 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:16:38,030 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:17:16,084 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:17:16,084 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:17:16,087 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:17:16,088 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:17:36,935 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:17:36,935 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:17:36,937 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:17:36,937 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:18:06,315 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:18:06,316 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:18:06,317 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:18:06,318 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:18:33,432 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:18:33,433 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:18:33,435 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:18:33,451 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:18:39,782 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:18:39,782 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:18:39,783 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:18:39,784 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:19:41,958 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:19:41,958 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:19:41,959 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:19:41,960 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:19:43,992 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:19:43,993 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:19:43,993 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:19:43,994 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:20:03,425 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:20:03,426 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:20:03,428 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:20:03,428 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:20:59,118 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:20:59,118 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:20:59,120 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:20:59,120 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:21:22,846 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:21:22,847 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:21:22,848 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:21:22,849 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:21:41,129 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:21:41,129 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:21:41,132 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:21:41,133 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:22:11,059 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:22:11,059 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:22:11,062 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:22:11,062 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:22:29,446 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:22:29,447 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:22:29,448 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:22:29,448 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:22:52,387 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:22:52,388 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:22:52,389 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:22:52,389 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:23:17,963 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:23:17,964 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:23:17,965 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:23:17,965 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:23:19,078 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:23:19,079 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:23:19,080 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:23:19,080 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:23:53,093 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:23:53,094 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:23:53,095 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:23:53,096 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:24:05,144 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:24:05,145 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:24:05,146 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:24:05,147 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:25:00,157 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:25:00,158 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:25:00,159 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:25:00,159 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:31:43,376 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:31:43,377 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:31:43,377 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:31:43,378 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources
+2014-10-23 13:32:58,661 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:32:58,662 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/main/resources
+2014-10-23 13:32:58,663 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-23 13:32:58,668 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/felipemoraes/Dropbox/grad/7ºPeriodo/Sistemas de Recomendação/pa3/pa3/src/test/resources

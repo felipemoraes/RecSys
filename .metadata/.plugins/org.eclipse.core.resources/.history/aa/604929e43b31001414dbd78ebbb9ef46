@@ -1,0 +1,29 @@
+package recsys;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+
+
+public class LoadInput {
+
+	public ArrayList<ArrayList<Integer>> loadRatings(String RATING_FILE) throws IOException{
+		ArrayList<ArrayList<Integer>> ratings = new ArrayList<ArrayList<Integer>>();
+		String s;
+		Integer user_id, rating;
+		BufferedReader in = new BufferedReader(new FileReader(RATING_FILE));
+        while((s = in.readLine()) != null){
+            String[] var = s.split("	");
+            user_id = Integer.parseInt(var[0]);
+          if (ratings.contains(user_id)){
+            	rating = Integer.parseInt(var[2]);
+            	ratings.get(user_id).add(rating);
+            } else {
+            	ratings.add(new ArrayList<Integer>());
+            }
+        }
+        in.close();
+		return ratings;
+	}
+}

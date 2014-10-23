@@ -1,0 +1,11 @@
+package recsys;
+
+public class User {
+	public Integer userId;
+	public String gender, profession;
+	User(Integer id, String gender, String profession){
+		this.id = id;
+		this.gender = gender;
+		this.profession = profession;
+	}
+}

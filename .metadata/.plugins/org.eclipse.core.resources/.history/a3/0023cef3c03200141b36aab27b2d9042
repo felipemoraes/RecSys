@@ -1,0 +1,20 @@
+package recsys;
+
+import java.util.Comparator;
+
+public class KeyValue{
+	Integer key;
+	Double value;
+	public KeyValue(Integer key, Double value) {
+		this.key = key;
+		this.value = value;
+	}
+}
+
+class KeyValueComparator implements Comparator<KeyValue> {
+    @Override
+    public int compare(KeyValue s, KeyValue t) {
+       int f = s.value.compareTo(t.value);
+       return (f != 0) ? f : s.key.compareTo(t.key);
+    }
+}

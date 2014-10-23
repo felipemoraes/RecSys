@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;recsys.User.itemsPredications&apos; in &apos;recsys.User&apos;&#x0A;- Original project: &apos;pa1&apos;&#x0A;- Original element: &apos;recsys.User.itemsPredications&apos;&#x0A;- Getter method name: &apos;getItemsPredications&apos;&#x0A;- Setter method name: &apos;setItemsPredications&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;itemsPredications&apos;" flags="589830" getter="getItemsPredications" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;recsys{User.java[User^itemsPredications" insertion="2" setter="setItemsPredications" stamp="1409619352074" version="1.0" visibility="1"/>
+</session>

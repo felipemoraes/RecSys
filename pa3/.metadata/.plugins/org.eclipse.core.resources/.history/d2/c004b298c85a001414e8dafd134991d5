@@ -1,0 +1,144 @@
+package pa3;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.BreakIterator;
+import java.util.ArrayList;
+import java.util.HashMap;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+
+public class Indexer {
+	
+	private HashMap<String,Integer> bagOfWords;
+	private String itemsFilename;
+	public Indexer(String itemsFilename) {
+		this.itemsFilename = itemsFilename;
+		this.bagOfWords = new HashMap<String,Integer>();
+		JSONParser parser = new JSONParser();
+		String s;
+		Integer count = 0;
+		try {
+			BufferedReader in = new BufferedReader(new FileReader(this.itemsFilename));
+			while((s = in.readLine()) != null){
+	            String[] var = s.split(" ", 2);
+	            Object obj = parser.parse(var[1]);
+	            JSONObject jsonObject = (JSONObject) obj;
+	            String plot = (String) jsonObject.get("Plot");
+	            try {
+		            BreakIterator boundary = BreakIterator.getWordInstance();
+		            boundary.setText(plot);
+		            int start = boundary.first();
+		            for (int end = boundary.next();
+		            		end != BreakIterator.DONE;
+		            		start = end, end = boundary.next()) {
+		            	bagOfWords.put(plot.substring(start,end), count);
+		            	count++;
+		               }
+					
+				} catch (Exception e) {
+					continue;
+				}
+	        }
+	        in.close();
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (org.json.simple.parser.ParseException e) {
+			e.printStackTrace();
+			
+		} 
+	}
+
+	public void execute(){
+		invertedIndex();
+	}
+	
+	// map from a term to a list of movies that contain the term
+	public void invertedIndex(){
+		
+		JSONParser parser = new JSONParser();
+		String s;
+		HashMap<Integer, ArrayList<Integer>> localIndex = new HashMap<Integer, ArrayList<Integer>>();
+		for (Integer item : bagOfWords.values()) {
+			localIndex.put(item, new ArrayList<Integer>());
+		}
+		try {
+			BufferedReader in = new BufferedReader(new FileReader(this.itemsFilename));
+			while((s = in.readLine()) != null){
+	            String[] var = s.split(" ", 2);
+	            Integer index = Integer.parseInt(var[0]);
+	            Object obj = parser.parse(var[1]);
+	            JSONObject jsonObject = (JSONObject) obj;
+	            String plot = (String) jsonObject.get("Plot");
+	            try {
+		            BreakIterator boundary = BreakIterator.getWordInstance();
+		            boundary.setText(plot);
+		            int start = boundary.first();
+		            for (int end = boundary.next();
+		            		end != BreakIterator.DONE;
+		            		start = end, end = boundary.next()) {
+		            	Integer termKey = bagOfWords.get(plot.substring(start,end));
+		            	localIndex.get(termKey).add(index);
+		               }
+				} catch (Exception e) {
+					continue;
+				}
+
+	        }
+	        in.close();
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (org.json.simple.parser.ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	}
+	//  map from a movie to a list of terms contained by the movie
+	public void directedIndex(){
+		JSONParser parser = new JSONParser();
+		String s;
+		HashMap<Integer, ArrayList<Integer>> localIndex = new HashMap<Integer, ArrayList<Integer>>();
+		try {
+			BufferedReader in = new BufferedReader(new FileReader(this.itemsFilename));
+			while((s = in.readLine()) != null){
+	            String[] var = s.split(" ", 2);
+	            Integer index = Integer.parseInt(var[0]);
+	            localIndex.put(index, new ArrayList<Integer>());
+	            Object obj = parser.parse(var[1]);
+	            JSONObject jsonObject = (JSONObject) obj;
+	            String plot = (String) jsonObject.get("Plot");
+	            try {
+		            BreakIterator boundary = BreakIterator.getWordInstance();
+		            boundary.setText(plot);
+		            int start = boundary.first();
+		            for (int end = boundary.next();
+		            		end != BreakIterator.DONE;
+		            		start = end, end = boundary.next()) {
+		            	Integer termKey = bagOfWords.get(plot.substring(start,end));
+		            	localIndex.get(index).add(termKey);
+		               }
+				} catch (Exception e) {
+					continue;
+				}
+
+	        }
+	        in.close();
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (org.json.simple.parser.ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+	}
+}
