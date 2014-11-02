@@ -1,0 +1,215 @@
+package pa3;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+public class RocchioRecommender {
+	private HashMap<Integer, HashMap<Integer, Integer>> utilityMatrix;
+	private HashMap<Integer, HashMap<Integer, Float>> itemFeatureMatrix;
+	private HashMap<Integer, HashMap<Integer, Float>> userFeatureMatrix;
+	private HashMap<Integer,Integer> terms;
+	public RocchioRecommender(String usersFilename, String ratingsFilename, String invertedIndex, String directedIndex){
+		loadUtility(ratingsFilename);
+		loadUser(usersFilename);
+		loadItem(invertedIndex, directedIndex);
+		computeUserFeatureMatrix(20);
+	}
+	
+	public ArrayList<Integer> getUsers(){
+		ArrayList<Integer> users = new ArrayList<Integer>();
+		for (Integer user : this.utilityMatrix.keySet()) {
+			users.add(user);
+		}
+		return users;
+	}
+	
+	public ArrayList<Integer> getItems(){
+		ArrayList<Integer> items = new ArrayList<Integer>();
+		for (Integer item : this.itemFeatureMatrix.keySet()) {
+			items.add(item);
+		}
+		return items;
+	}
+	
+	public boolean userContainsItem(Integer user, Integer item){
+		if (this.utilityMatrix.get(user).containsKey(item)) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	private void loadUtility(String filename){
+			this.utilityMatrix = new HashMap<Integer, HashMap<Integer, Integer>>();
+			BufferedReader in;
+			try {
+				in = new BufferedReader(new FileReader(filename));
+			
+				String s;
+				while((s = in.readLine()) != null){
+					 String[] var = s.split("	");
+					 Integer user = Integer.parseInt(var[0]);
+					 Integer item = Integer.parseInt(var[1]);
+					 Integer rating = Integer.parseInt(var[2]);
+					 if (this.utilityMatrix.containsKey(user)) {
+						this.utilityMatrix.get(user).put(item, rating);
+					} else {
+						this.utilityMatrix.put(user, new HashMap<Integer, Integer>());
+						this.utilityMatrix.get(user).put(item, rating);
+					}
+				}
+			
+				in.close();
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+	}
+	
+	private void loadUser(String filename){
+		this.userFeatureMatrix = new HashMap<Integer, HashMap<Integer,Float>>();
+		BufferedReader in;
+		try {
+			in = new BufferedReader(new FileReader(filename));
+		
+			String s;
+			while((s = in.readLine()) != null){
+				 String[] var = s.split("|");
+				 Integer user = Integer.parseInt(var[0]);
+				 userFeatureMatrix.put(user, new HashMap<Integer, Float>());
+			}
+			in.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void loadItem(String invertedIndexFilename, String directedIndexFilename){
+		HashMap<Integer, HashMap<Integer, Integer>> invertedIndex = loadFrequency(invertedIndexFilename);
+		HashMap<Integer, HashMap<Integer, Integer>>  directedIndex = loadFrequency(directedIndexFilename);
+		this.itemFeatureMatrix = new HashMap<Integer, HashMap<Integer,Float>>();
+		this.terms = new HashMap<Integer, Integer>();
+	    float numberOfItems = directedIndex.keySet().size();
+		for (Integer item : directedIndex.keySet()) {
+			this.itemFeatureMatrix.put(item, new HashMap<Integer, Float>());
+			for (Integer term : invertedIndex.keySet()) {
+				Integer termFrequency = invertedIndex.get(term).get(item);
+				Integer numberOfItemsWhereTermAppears = invertedIndex.get(term).size();
+				Float inverseDocumentFrequency;
+				if ((numberOfItemsWhereTermAppears+ 1) > numberOfItems) {
+					inverseDocumentFrequency = (float) Math.log10((1+ numberOfItemsWhereTermAppears)/numberOfItems);
+				} else {
+					inverseDocumentFrequency = (float) Math.log10(numberOfItems/(1+numberOfItemsWhereTermAppears));
+				}
+				
+				if (termFrequency != null) {
+					this.itemFeatureMatrix.get(item).put(term, termFrequency*inverseDocumentFrequency);
+					//System.out.println(item + " " + term + " " + termFrequency + " " + inverseDocumentFrequency + " " + termFrequency*inverseDocumentFrequency + " " +  numberOfItems + " " +  numberOfItemsWhereTermAppears);
+				} else {
+					this.itemFeatureMatrix.get(item).put(term, (float) 0);
+				//	System.out.println(item + " " + term + " " + termFrequency + " " + inverseDocumentFrequency + " " +  numberOfItems + " " +  numberOfItemsWhereTermAppears);
+				}
+				
+				if (!this.terms.containsKey(term)) {
+					terms.put(term, 0);
+				}
+			}
+		}
+		
+	}
+	
+	private HashMap<Integer, HashMap<Integer, Integer>> loadFrequency(String filename){
+		HashMap<Integer, HashMap<Integer, Integer>> frequency = new HashMap<Integer, HashMap<Integer, Integer>>();
+		try {
+			BufferedReader in = new BufferedReader(new FileReader(filename));
+			String s;
+			while((s = in.readLine()) != null){
+				 String[] var = s.split(" ",2);
+				 Integer index = Integer.parseInt(var[0]);
+				 String[] items = var[1].split(" ");
+				 frequency.put(index, new HashMap<Integer, Integer>());
+				 for (String str : items) {
+					 try {
+						 Integer item = Integer.parseInt(str);
+						 Integer count;
+						 if (frequency.get(index).containsKey(item)) {
+							 count = frequency.get(index).get(item);
+							 count++;
+							 frequency.get(index).put(item, count);
+							
+						} else {
+							frequency.get(index).put(item, 1);
+						}
+					} catch (Exception e) {
+						// TODO: handle exception
+					}
+				}
+			}
+			in.close();
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} 
+		return frequency;
+	}
+
+	private ArrayList<KeyValue> kNearestNeighboarsItems(Integer user){
+		ArrayList<KeyValue> kNNItems = new ArrayList<KeyValue>();
+		for (Integer item : this.utilityMatrix.get(user).keySet()) {
+			kNNItems.add(new KeyValue(item, this.utilityMatrix.get(user).get(item)));
+		}
+		Collections.sort(kNNItems, new KeyValueComparator());
+		return kNNItems;
+		
+	}
+	private void computeUserFeatureMatrix(Integer k){
+		for (Integer user : this.userFeatureMatrix.keySet()) {
+			ArrayList<KeyValue> kNNItems = kNearestNeighboarsItems(user);
+			for (Integer term : this.terms.keySet()) {
+				Float sum = (float) 0;
+				for (KeyValue item : kNNItems) {
+					sum += item.value*this.itemFeatureMatrix.get(item.key).get(term);
+
+				}
+				this.userFeatureMatrix.get(user).put(term, sum/kNNItems.size());
+			}
+		}
+	}
+	
+	public float predictRating(Integer user, Integer item) {
+		float sum = 0;
+		float sumSquareRootUser = 0;
+		float sumSquareRootItem = 0;
+		System.out.println(user + " " + item);
+		for (Integer term : this.terms.keySet()) {
+			//System.out.println(term + " " + this.itemFeatureMatrix.get(item).get(term) + " " + this.userFeatureMatrix.get(user).get(term));
+			if (this.itemFeatureMatrix.get(item).containsKey(term) &&this.userFeatureMatrix.get(user).containsKey(term)) {
+				sum += this.itemFeatureMatrix.get(item).get(term)*this.userFeatureMatrix.get(user).get(term);
+				sumSquareRootUser += this.userFeatureMatrix.get(user).get(term)*this.userFeatureMatrix.get(user).get(term);
+				sumSquareRootItem += this.itemFeatureMatrix.get(item).get(term)*this.itemFeatureMatrix.get(item).get(term);
+			}
+				
+		}
+		sumSquareRootUser = (float) Math.sqrt(sumSquareRootUser);
+		sumSquareRootItem = (float) Math.sqrt(sumSquareRootItem);
+	//	System.out.println(sum + " " + sumSquareRootUser + " " + sumSquareRootItem);
+		System.out.println((sum/(sumSquareRootUser*sumSquareRootItem))*5);
+		return (sum/(sumSquareRootUser*sumSquareRootItem))*5;
+	}
+}

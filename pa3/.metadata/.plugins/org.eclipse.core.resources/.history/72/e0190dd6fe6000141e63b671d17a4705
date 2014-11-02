@@ -1,0 +1,72 @@
+package pa3;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+
+public class Metrics {
+	public HashMap<Integer, HashMap<Integer, Float>> real;
+	public HashMap<Integer, HashMap<Integer, Float>> predict;
+	public Metrics(String realFilename, String predictFilename){
+		try {
+			real = new HashMap<Integer, HashMap<Integer,Float>>();
+			predict = new HashMap<Integer, HashMap<Integer,Float>>();
+			BufferedReader in = new BufferedReader(new FileReader(predictFilename));
+			String s;
+			while((s = in.readLine()) != null){
+	            String[] var = s.split(" ");
+	            Integer user = Integer.parseInt(var[0]);
+	            Integer item = Integer.parseInt(var[1]);
+	            Float rating = Float.parseFloat(var[0]);
+	            if (predict.containsKey(user)) {
+					predict.get(user).put(item, rating);
+				} else {
+					predict.put(user, new HashMap<Integer, Float>());
+					predict.get(user).put(item, rating);
+				}
+			}
+			in.close();
+			in = new BufferedReader(new FileReader(realFilename));
+			while((s = in.readLine()) != null){
+	            String[] var = s.split("	");
+	            Integer user = Integer.parseInt(var[0]);
+	            Integer item = Integer.parseInt(var[1]);
+	            Float rating = Float.parseFloat(var[0]);
+	            if (real.containsKey(user)) {
+					real.get(user).put(item, rating);
+				} else {
+					real.put(user, new HashMap<Integer, Float>());
+					real.get(user).put(item, rating);
+				}
+			}
+			in.close();	
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public double RMSE(){
+		double sum = 0.0;
+		int count = 0;
+		for (Integer user : real.keySet()) {
+			for (Integer item : real.get(user).keySet()) {
+				if (predict.get(user).containsKey(item)) {
+					double diff = (real.get(user).get(item) - predict.get(user).get(item));
+					sum += diff*diff;
+					count++;
+				}
+			}
+		}
+
+		System.out.println(sum);
+		return Math.sqrt(sum/count);
+		
+	}
+}

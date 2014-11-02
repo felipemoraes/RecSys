@@ -1,0 +1,13 @@
+package pa3;
+
+public class Recommender {
+	private RocchioRecommender recommender;
+	public Recommender(String usersFilename, String itemsFilename, String ratingsFilename) {
+		recommender = new RocchioRecommender(usersFilename, ratingsFilename,
+				"output/inverted_index_test", "output/directed_index_test");
+	}
+
+	public void execute(){
+		this.recommender.predictRating(2,2);
+	}
+}
